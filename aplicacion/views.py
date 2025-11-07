@@ -1,0 +1,20 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+def base(request):
+    return render(request, 'base.html')
+
+def pasteles(request):
+    return render(request, 'pasteles.html')
+
+def cakes(request):
+    return render(request, 'cakes.html')
+
+def minitortas(request):
+    return render(request, 'minitortas.html')
+
+def bocaditos(request):
+    return render(request, 'bocaditos.html')
+
